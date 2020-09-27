@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorPrimaryLight">#B2DFDB</color>
+    <color name="colorAccent">#d9cd61</color>
+
+    <!--Text Colors-->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="divider_color">#B6B6B6</color>
+    <color name="divider_color_light">#e4e4e4</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="selector_background">#B2DFDB</color>
+
+    <!--Button Color Backgrounds-->
+    <color name="not_pressed">#909695</color>
+    <color name="pressed">#B2DFDB</color>
+
+    <!--Button Color Backgrounds 2-->
+    <color name="not_pressed_two">#666b6a</color>
+    <color name="pressed_two">#B2DFDB</color>
+
+    <!-- Primary Colors -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_light">#494646</color>
+    <color name="secondary_black_light">#ce565656</color>
+    <color name="secondary_black">#c9000000</color>
+</resources>

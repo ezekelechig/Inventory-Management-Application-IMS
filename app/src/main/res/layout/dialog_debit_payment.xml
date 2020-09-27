@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:elevation="3dp"
+    android:orientation="vertical"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/tv_title_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="inventory payment"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/tv_current_debit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-bold"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Current debit value"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tv_current_debit_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-bold"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="$ 2500"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/tv_current_blnc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-bold"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="available balance"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tv_current_blnc_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-bold"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="$ 2500"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <!--<android.support.design.widget.TextInputLayout-->
+    <!--android:id="@+id/payAmountWrapper"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="15dp">-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/ed_pay_amount"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:hint="Payable amount"-->
+    <!--android:inputType="number"-->
+    <!--android:maxLength="5"-->
+    <!--android:textSize="16sp"-->
+    <!--android:maxLines="1"-->
+    <!--android:fontFamily="sans-serif-light"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:singleLine="true" />-->
+
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+
+    <TextView
+        android:id="@+id/tv_confirm_debit_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/custom_view_selector"
+        android:gravity="right"
+        android:padding="10dp"
+        android:text="Confirm"
+        android:textAllCaps="true"
+        android:textColor="@color/secondary_black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

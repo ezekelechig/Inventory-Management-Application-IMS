@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.inventorymanagementsystem.ims.Activity.AddOrderActivity">
+
+    <include
+        android:id="@+id/add_order_toolbar"
+        layout="@layout/toolbar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin">
+
+
+            <LinearLayout
+                android:id="@+id/ll_choose_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_category"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:hint="@string/select_inventory_category"
+                    android:padding="10dp"
+                    android:textColor="@color/secondary_black"
+                    android:textColorHint="@color/secondary_black_light"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/tv_category_expand"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/icon_expand_down"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_choose_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_item"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:hint="@string/select_inventory_item"
+                    android:padding="10dp"
+                    android:textColor="@color/secondary_black"
+                    android:textColorHint="@color/secondary_black_light"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_expand"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/icon_expand_down"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_choose_item_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_item_no"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:hint="@string/select_number_of_items"
+                    android:padding="10dp"
+                    android:textColor="@color/secondary_black"
+                    android:textColorHint="@color/secondary_black_light"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_no_expand"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/icon_expand_down"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_order_confirm"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_one_selector"
+                    android:text="@string/confirm"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/btn_order_clear"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_one_selector"
+                    android:text="@string/clear"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

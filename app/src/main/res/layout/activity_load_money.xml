@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.inventorymanagementsystem.ims.Activity.LoadMoneyActivity">
+
+    <include
+        android:id="@+id/loadMoneyToolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/master_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_view_selector"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <com.inventorymanagementsystem.ims.Adapters.FontAwesomeTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/master_card"
+            android:textSize="@dimen/text_title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load money from master card."
+            android:textColor="@color/secondary_text" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_color_light" />
+
+    <LinearLayout
+        android:id="@+id/pay_pal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_view_selector"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <com.inventorymanagementsystem.ims.Adapters.FontAwesomeTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pay_pal"
+            android:textSize="@dimen/text_title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load money from pay pal."
+            android:textColor="@color/secondary_text" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_color_light" />
+</LinearLayout>
